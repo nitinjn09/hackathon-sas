@@ -1,2 +1,2 @@
-db-core-service: db-core-service
-db-core-service-port: 80
+server:
+  port : 8082

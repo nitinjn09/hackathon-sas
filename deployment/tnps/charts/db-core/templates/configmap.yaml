@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "db-core.fullname" . }}
+data:
+  TNPS_MARIA_DB_HOST: {{ printf "%s-%s" .Release.Name .Values.tnpsServices.mariadb }}
+  TNPS_MARIA_DB_PORT: "3306"
+  TNPS_MARIA_DB_SSH_PORT: "22"
+  TNPS_DB_CORE_DEPLOYMENT_NAME: {{ include "db-core.fullname" . }}

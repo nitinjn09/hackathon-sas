@@ -1,0 +1,50 @@
+# Default values for tnps.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+application-server:
+  image:
+    repository: application-server
+    tag: 0.0.1
+    pullPolicy: IfNotPresent
+  service:
+    type: ClusterIP
+    port: 3000
+
+project-manager:
+  image:
+    repository: project-manager
+    tag: 0.0.1
+    pullPolicy: IfNotPresent
+  service:
+    type: ClusterIP
+    port: 6001
+
+db-core:
+  image:
+    repository: db-core
+    tag: 0.0.1
+    pullPolicy: IfNotPresent
+  service:
+    type: ClusterIP
+    port: 5505
+
+mariadb:
+  service:
+    type: ClusterIP
+
+sas-tool:
+  image:
+    repository: sas-tool
+    tag: 0.0.1
+    pullPolicy: IfNotPresent
+  service:
+    type: ClusterIP
+    port: 8088
+
+#Nginx-ingress-controller Service Values
+nginx-ingress:
+  controller:
+    service:
+      nodePorts:
+        http: 30001    #HTTP port exposed outside

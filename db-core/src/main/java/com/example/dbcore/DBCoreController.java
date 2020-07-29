@@ -11,21 +11,11 @@ import java.sql.Statement;
 @RestController
 public class DBCoreController
 {
-    @GetMapping("/test")
-    public String test()
+    @GetMapping("/collect-logs")
+    public String collectLogs()
     {
-        String retVal = " DB Core :{ Working }";
-
-        try
-        {
-            runSqlStatement("create database tnpsdb");
-        }
-        catch (Exception e)
-        {
-            System.out.println("Some error: " + e.getMessage());
-        }
-
-        return retVal;
+        //Write login to collect and return logs
+        return "Hi from db controller";
     }
 
     private Connection getDbConnection()

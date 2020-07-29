@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "application-server.fullname" . }}
+data:
+  TNPS_PROJECT_MANAGER_HOST: {{ printf "%s-%s" .Release.Name .Values.tnpsServices.projectManager }}
+  TNPS_PROJECT_MANAGER_PORT: "6001"
+  TNPS_CP_SERVICE_HOST: {{ printf "%s-%s" .Release.Name .Values.tnpsServices.cpService }}
+  TNPS_CP_SERVICE_PORT: "6976"
+  TNPS_APP_SERVER_DEPLOYMENT_NAME: {{ include "application-server.fullname" . }}

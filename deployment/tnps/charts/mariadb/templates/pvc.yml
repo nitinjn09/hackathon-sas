@@ -1,0 +1,38 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: {{ include "mariadb.fullname" . }}
+provisioner: docker.io/hostpath
+reclaimPolicy: Retain
+volumeBindingMode: Immediate
+
+---
+
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: {{ include "mariadb.fullname" . }}
+  labels:
+    type: local
+spec:
+  storageClassName: {{ include "mariadb.fullname" . }}
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: "/mnt/data"
+
+---
+
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: {{ include "mariadb.fullname" . }}
+spec:
+  storageClassName: {{ include "mariadb.fullname" . }}
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi

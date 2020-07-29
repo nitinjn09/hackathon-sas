@@ -1,0 +1,38 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: {{ include "application-server.fullname" . }}
+provisioner: docker.io/hostpath
+reclaimPolicy: Retain
+volumeBindingMode: Immediate
+
+---
+
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: {{ include "application-server.fullname" . }}
+  labels:
+    type: local
+spec:
+  storageClassName: {{ include "application-server.fullname" . }}
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: "/mnt/tnps-shared"   #Mount path inside kube file system or host machine
+
+---
+
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: {{ include "application-server.fullname" . }}
+spec:
+  storageClassName: {{ include "application-server.fullname" . }}
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi

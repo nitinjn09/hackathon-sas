@@ -1,2 +1,2 @@
-project-manager-service: project-manager-service
-project-manager-service-port: 80
+server:
+  port : 8084
