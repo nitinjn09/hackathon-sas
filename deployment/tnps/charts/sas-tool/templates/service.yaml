@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "sas-tool.fullname" . }}
+  name: {{ printf "%s-%s" .Release.Name .Values.service.name }}
   labels:
     {{- include "sas-tool.labels" . | nindent 4 }}
 spec:
   type: {{ .Values.service.type }}
   ports:
     - port: {{ .Values.service.port }}
-      targetPort: http
+      targetPort: 8081
       protocol: TCP
       name: http
   selector:

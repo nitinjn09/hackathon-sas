@@ -42,6 +42,11 @@ service:
   port: 8081
   nodePort: 30003
 
+tnpsServices:
+  appServer: application-server
+  projectManager: project-manager
+  dbCore: db-core
+
 ingress:
   enabled: true
   annotations: {}
