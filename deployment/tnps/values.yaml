@@ -4,30 +4,30 @@
 
 application-server:
   image:
-    repository: application-server
+    repository: application-server-image
     tag: 0.0.1
     pullPolicy: IfNotPresent
   service:
     type: ClusterIP
-    port: 3000
+    port: 8084
 
 project-manager:
   image:
-    repository: project-manager
+    repository: project-manager-image
     tag: 0.0.1
     pullPolicy: IfNotPresent
   service:
     type: ClusterIP
-    port: 6001
+    port: 8082
 
 db-core:
   image:
-    repository: db-core
+    repository: db-core-image
     tag: 0.0.1
     pullPolicy: IfNotPresent
   service:
     type: ClusterIP
-    port: 5505
+    port: 8083
 
 mariadb:
   service:
@@ -35,12 +35,13 @@ mariadb:
 
 sas-tool:
   image:
-    repository: sas-tool
+    repository: sas-tool-image
     tag: 0.0.1
     pullPolicy: IfNotPresent
   service:
     type: ClusterIP
-    port: 8088
+    port: 8081
+    nodePort: 30003
 
 #Nginx-ingress-controller Service Values
 nginx-ingress:

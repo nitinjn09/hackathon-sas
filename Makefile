@@ -8,11 +8,14 @@ build-sas-tool:
 	gradle build -b ./sas-tool/build.gradle
 
 build: build-app-server build-project-manager build-db-core build-sas-tool
-build-docker: build
-	docker image build -t application-server-image ./application-server
-	docker image build -t project-manager-image ./project-manager
-	docker image build -t db-core-image ./db-core
-	docker image build -t sas-tool-image ./sas-tool
+
+docker:
+	docker image build -t application-server-image:0.0.1 ./application-server
+	docker image build -t project-manager-image:0.0.1 ./project-manager
+	docker image build -t db-core-image:0.0.1 ./db-core
+	docker image build -t sas-tool-image:0.0.1 ./sas-tool
+
+build-docker: build docker
 
 start-as:
 	java -jar ./application-server/build/libs/application-server-0.0.1-SNAPSHOT.jar
