@@ -25,3 +25,8 @@ start-dc:
 	java -jar ./db-core/build/libs/db-core-0.0.1-SNAPSHOT.jar
 start-sas:
 	java -jar ./sas-tool/build/libs/sas-tool-0.0.1-SNAPSHOT.jar
+
+load-sas:
+	gradle build -b ./sas-tool/build.gradle
+	docker image build -t sas-tool-image:0.0.1 ./sas-tool
+	helm install sas deployment/tnps/charts/sas-tool/

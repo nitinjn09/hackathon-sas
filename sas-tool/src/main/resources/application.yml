@@ -1,2 +1,11 @@
 server:
   port : 8081
+project-manager:
+  host :  project-manager #${TNPS_PROJECT_MANAGER_HOST}
+  port :  8082 #${TNPS_PROJECsT_MANAGER_PORT}
+applcation-server:
+  host : application-server #${TNPS_APPLICATION_SERVER_HOST}
+  port : 8084 #${TNPS_APPLICATION_SERVER_PORT}
+db-core:
+  host : db-core #${TNPS_DB_CORE_HOST}
+  port : 8083 #${TNPS_DB_CORE_PORT}

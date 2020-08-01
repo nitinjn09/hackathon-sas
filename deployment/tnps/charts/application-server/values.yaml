@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: iartifactory.infinera.com/tnps-docker-local/application-server
-  pullPolicy: Always
+  repository: application-server-image
+  pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: 0.0.1
 
@@ -39,7 +39,7 @@ securityContext: {}
 service:
   name: application-server
   type: ClusterIP
-  port: 3000
+  port: 8084
 
 tnpsServices:
   projectManager: project-manager

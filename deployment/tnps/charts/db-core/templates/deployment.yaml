@@ -38,7 +38,7 @@ spec:
                 name: {{ include "db-core.fullname" . }}
           ports:
             - name: http
-              containerPort: 5505
+              containerPort: {{ .Values.service.port }}
               protocol: TCP
       {{- with .Values.nodeSelector }}
       nodeSelector:

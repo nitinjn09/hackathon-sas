@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: iartifactory.infinera.com/tnps-docker-local/project-manager
-  pullPolicy: Always
+  repository: project-manager-image
+  pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: 0.0.1
 
@@ -39,7 +39,7 @@ securityContext: {}
 service:
   name: project-manager
   type: ClusterIP
-  port: 6001
+  port: 8082
 
 tnpsServices:
   macroManager: macro-manager

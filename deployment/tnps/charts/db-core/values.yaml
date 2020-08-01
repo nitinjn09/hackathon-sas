@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: iartifactory.infinera.com/tnps-docker-local/db-core
-  pullPolicy: Always
+  repository: db-core-image
+  pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: 0.0.3
+  tag: 0.0.1
 
 imagePullSecrets: []
 nameOverride: ""
@@ -39,7 +39,7 @@ securityContext: {}
 service:
   name: db-core
   type: ClusterIP
-  port: 5505
+  port: 8083
 
 tnpsServices:
   mariadb: mariadb
