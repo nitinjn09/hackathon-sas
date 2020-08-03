@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "my-ui-app"
+    }
+  },
+  "defaultProject": "my-ui-app",
+  "cli": {
+    "analytics": false
+  }
 }

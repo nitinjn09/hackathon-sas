@@ -55,9 +55,11 @@ public class ProjectController
         return responseEntity;
     }
 
+    @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping(value = "/upload-conf", method = RequestMethod.POST, consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public String fileUpload(@RequestParam("File") MultipartFile file) throws IOException, ParseException {
-        File convertFile = new File(confDir + "\\" + file.getOriginalFilename());
+        //File convertFile = new File(confDir + "\\" + file.getOriginalFilename());
+        File convertFile = new File("C:\\Users\\prastogi\\Desktop\\" + file.getOriginalFilename());
         convertFile.createNewFile();
         FileReader reader = new FileReader(convertFile);
         JSONParser jsonParser = new JSONParser(reader);
@@ -75,7 +77,7 @@ public class ProjectController
     @RequestMapping(value = "/config", method = RequestMethod.GET)
     public ResponseEntity<Object> getYmlJson() throws IOException {
 
-        String inputFilePath = "C:\\Hackathon20\\hackathon-sas\\project-manager\\src\\main\\resources\\application.yml";
+        String inputFilePath = "C:\\Users\\prastogi\\Desktop\\Hackathon\\hackathon-sas\\project-manager\\src\\main\\resources\\application.yml";
         File file = new File(inputFilePath);
         InputStreamResource resource = new InputStreamResource(new FileInputStream(file));
         HttpHeaders headers = new HttpHeaders();
