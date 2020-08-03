@@ -51,4 +51,18 @@ export class DataFetcherService{
         }
         return this.confStr;
     }
+
+    downloadConfig(id:number){
+        const name = this.microservice.getMicroservice(id).name;
+        console.log(name);      
+        if(name === 'Project Manager')
+        {
+            this.http.get('http://localhost:8082//config',{responseType:'text'})
+            .subscribe(downloadedFileData => {
+                const blob = new Blob([downloadedFileData], { type: 'text/json; charset=utf-8' });
+                fileSaver.saveAs(blob, 'projectManagerConfig.log');
+                console.log(downloadedFileData);
+            });
+        }
+    }
 }

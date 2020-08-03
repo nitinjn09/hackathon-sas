@@ -32,6 +32,10 @@ export class MicroserviceConfigComponent implements OnInit {
     this.configMS = this.dataFetcherService.fetchConfiguration(this.id);
   }
 
+  onDownload(){
+    this.dataFetcherService.downloadConfig(this.id);
+  }
+
 
 
 }
