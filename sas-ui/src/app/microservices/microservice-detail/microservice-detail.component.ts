@@ -35,7 +35,7 @@ export class MicroserviceDetailComponent implements OnInit {
     this.router.navigate(['/microservices']);
   }
 
-  onCollectLogs(){
+  onDownloadLogs(){
     this.dataFetcherService.fetchMicroservices(this.id);
   }
 
