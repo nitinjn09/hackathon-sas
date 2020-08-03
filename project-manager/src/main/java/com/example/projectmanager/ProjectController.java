@@ -70,4 +70,25 @@ public class ProjectController
         fout.close();
         return "File is upload successfully";
     }
+	
+	@CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "/config", method = RequestMethod.GET)
+    public ResponseEntity<Object> getYmlJson() throws IOException {
+
+        String inputFilePath = "C:\\Hackathon20\\hackathon-sas\\project-manager\\src\\main\\resources\\application.yml";
+        File file = new File(inputFilePath);
+        InputStreamResource resource = new InputStreamResource(new FileInputStream(file));
+        HttpHeaders headers = new HttpHeaders();
+
+        headers.add("Content-Disposition", String.format("attachment; filename=\"%s\"", file.getName()));
+        headers.add("Cache-Control", "no-cache, no-store, must-revalidate");
+        headers.add("Pragma", "no-cache");
+        headers.add("Expires", "0");
+
+        ResponseEntity<Object>
+                responseEntity = ResponseEntity.ok().headers(headers).contentLength(file.length()).contentType(
+                MediaType.parseMediaType("application/txt")).body(resource);
+
+        return responseEntity;
+    }
 }
