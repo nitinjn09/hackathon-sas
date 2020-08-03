@@ -1,7 +1,15 @@
 package com.example.projectmanager;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.coyote.Response;
+import org.apache.tomcat.util.json.JSONParser;
+import org.apache.tomcat.util.json.ParseException;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.beans.factory.config.YamlMapFactoryBean;
+import org.springframework.beans.factory.config.YamlProcessor;
+import org.springframework.boot.json.YamlJsonParser;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
@@ -9,15 +17,18 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 
 @RestController
 @Slf4j
 public class ProjectController
 {
+    @Value("${logging.file.name}")
+    String logFile;
+
+    @Value("${conf.path}")
+    String confDir;
+
     @GetMapping("/test")
     public String collectLogs()
     {
@@ -28,8 +39,7 @@ public class ProjectController
     @RequestMapping(value = "/pm-logs", method = RequestMethod.GET)
     public ResponseEntity<Object> downloadFile() throws IOException
     {
-        String inputFile = "C:\\TNPS\\njaintnps\\tnps\\hackathon-sas\\project-manager\\logs\\projectManager.log";
-        File file = new File(inputFile);
+        File file = new File(logFile);
         InputStreamResource resource = new InputStreamResource(new FileInputStream(file));
         HttpHeaders headers = new HttpHeaders();
 
@@ -46,10 +56,15 @@ public class ProjectController
     }
 
     @RequestMapping(value = "/upload-conf", method = RequestMethod.POST, consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
-    public String fileUpload(@RequestParam("file") MultipartFile file) throws IOException
-    {
-        File convertFile = new File("C:\\TNPS\\njaintnps\\tnps\\hackathon-sas\\project-manager\\conf\\"+file.getOriginalFilename());
+    public String fileUpload(@RequestParam("File") MultipartFile file) throws IOException, ParseException {
+        File convertFile = new File(confDir + "\\" + file.getOriginalFilename());
         convertFile.createNewFile();
+        FileReader reader = new FileReader(convertFile);
+        JSONParser jsonParser = new JSONParser(reader);
+        //Object obj = jsonParser.parse();
+        //Yaml yaml = new Yaml();
+        //ObjectMapper mapper = new ObjectMapper(new YamlMapFactoryBean());
+        //ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
         FileOutputStream fout = new FileOutputStream(convertFile);
         fout.write(file.getBytes());
         fout.close();
