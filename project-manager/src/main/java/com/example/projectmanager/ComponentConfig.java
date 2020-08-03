@@ -5,6 +5,9 @@ public class ComponentConfig
     public boolean featureOneEnable = true;
     public boolean featureTwoEnable = true;
 
+    public ComponentConfig() {
+    }
+
     public boolean isFeatureOneEnable() {
         return featureOneEnable;
     }
