@@ -4,6 +4,7 @@ import { MicroservicesComponent } from './microservices/microservices.component'
 import { MicroserviceStartComponent } from './microservices/microservice-start/microservice-start.component';
 import { MicroserviceDetailComponent } from './microservices/microservice-detail/microservice-detail.component';
 import { MicroserviceEditComponent } from './microservices/microservice-edit/microservice-edit.component';
+import { MicroserviceConfigComponent } from './microservices/microservice-config/microservice-config.component';
 
 const appRoutes: Routes = [
   { path: '', redirectTo: '/microservices', pathMatch: 'full' },
@@ -11,7 +12,8 @@ const appRoutes: Routes = [
     {path: '', component: MicroserviceStartComponent},
     {path: 'new', component: MicroserviceEditComponent},
     {path: ':id', component: MicroserviceDetailComponent},
-    {path: ':id/edit', component: MicroserviceEditComponent}
+    {path: ':id/edit', component: MicroserviceEditComponent},
+    {path: ':id/config', component: MicroserviceConfigComponent}
   ] },
 ];
 
