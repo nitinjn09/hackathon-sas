@@ -17,14 +17,13 @@ import java.io.IOException;
 @RestController
 public class ProjectController
 {
-    @GetMapping("/collect-logs")
+    @GetMapping("/test")
     public String collectLogs()
     {
-        //Write login to collect and return logs
         return "Hi from project manager";
     }
 
-    @RequestMapping(value = "/download", method = RequestMethod.GET)
+    @RequestMapping(value = "/pm-logs", method = RequestMethod.GET)
     public ResponseEntity<Object> downloadFile() throws IOException
     {
         String inputFile = "C:\\TNPS\\njaintnps\\tnps\\hackathon-sas\\project-manager\\logs\\projectManager.log";

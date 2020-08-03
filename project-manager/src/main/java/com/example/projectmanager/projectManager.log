@@ -1,0 +1,13 @@
+03-08-2020 10:59:35.752 [Test worker] INFO  c.e.p.ProjectManagerApplicationTests.logStarting - Starting ProjectManagerApplicationTests on IN-Njain-LT with PID 18872 (started by njain in C:\TNPS\njaintnps\tnps\hackathon-sas\project-manager)
+03-08-2020 10:59:35.756 [Test worker] DEBUG c.e.p.ProjectManagerApplicationTests.logStarting - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+03-08-2020 10:59:35.758 [Test worker] INFO  c.e.p.ProjectManagerApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-08-2020 10:59:38.554 [Test worker] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+03-08-2020 10:59:39.083 [Test worker] INFO  c.e.p.ProjectManagerApplicationTests.logStarted - Started ProjectManagerApplicationTests in 4.183 seconds (JVM running for 6.654)
+03-08-2020 10:59:39.092 [Test worker] INFO  c.e.p.ProjectManagerLogger.test - INFO-0
+03-08-2020 10:59:39.095 [Test worker] DEBUG c.e.p.ProjectManagerLogger.test - DEBUG-0
+03-08-2020 10:59:39.097 [Test worker] WARN  c.e.p.ProjectManagerLogger.test - WARN-0
+03-08-2020 10:59:39.099 [Test worker] ERROR c.e.p.ProjectManagerLogger.test - ERROR-0
+03-08-2020 11:01:19.109 [Test worker] INFO  c.e.p.ProjectManagerLogger.test - INFO-1
+03-08-2020 11:01:19.111 [Test worker] DEBUG c.e.p.ProjectManagerLogger.test - DEBUG-1
+03-08-2020 11:01:19.119 [Test worker] WARN  c.e.p.ProjectManagerLogger.test - WARN-1
+03-08-2020 11:01:19.122 [Test worker] ERROR c.e.p.ProjectManagerLogger.test - ERROR-1

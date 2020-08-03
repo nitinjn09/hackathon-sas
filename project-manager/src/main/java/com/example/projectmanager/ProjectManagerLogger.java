@@ -17,7 +17,8 @@ public class ProjectManagerLogger
             log.warn("WARN-"+count);
             log.error("ERROR-"+count);
             count++;
-            Thread.sleep(100000);
+            long millis = 1000 * 60;
+            Thread.sleep(millis);
         }
     }
 
