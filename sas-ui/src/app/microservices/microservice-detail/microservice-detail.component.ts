@@ -38,5 +38,10 @@ export class MicroserviceDetailComponent implements OnInit {
   onDownloadLogs(){
     this.dataFetcherService.fetchMicroservices(this.id);
   }
+  
+  onUploadFile(){
+    //this.dataFetcherService.uploadDataonMicroservice(this.id);
+
+  }
 
 }
