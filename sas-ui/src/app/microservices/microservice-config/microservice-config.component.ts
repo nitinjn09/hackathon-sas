@@ -11,7 +11,7 @@ import { Microservice } from '../microservice.model';
 })
 export class MicroserviceConfigComponent implements OnInit {
 
-   configMS: string;
+   configMS;
    id: number;
    microservice: Microservice;
 
@@ -29,7 +29,10 @@ export class MicroserviceConfigComponent implements OnInit {
   }
 
   onGetConfig(){
-    this.configMS = this.dataFetcherService.fetchConfiguration(this.id);
+    this.configMS = this.dataFetcherService.fetchConfiguration(this.id).subscribe(result =>
+      {
+        this.configMS = result;
+      });
   }
 
   onDownload(){

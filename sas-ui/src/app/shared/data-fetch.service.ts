@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { MicroserviceService } from "../microservices/microservice.service";
 import * as fileSaver from 'file-saver';
 import { stringify } from "querystring";
+import { Observable } from 'rxjs';
 
 @Injectable({providedIn: 'root'})
 export class DataFetcherService{
@@ -38,18 +39,13 @@ export class DataFetcherService{
     }
 
 
-    fetchConfiguration(id: number){
+    fetchConfiguration(id: number) : Observable<string>{
         const name = this.microservice.getMicroservice(id).name;
         console.log(name);      
         if(name === 'Project Manager')
         {
-            this.http.get('http://localhost:8082//config',{responseType:'text'})
-            .subscribe(configu => {
-                this.confStr = configu;
-                console.log(this.confStr);
-            });
+            return this.http.get('http://localhost:8082//config',{responseType:'text'});
         }
-        return this.confStr;
     }
 
     downloadConfig(id:number){
