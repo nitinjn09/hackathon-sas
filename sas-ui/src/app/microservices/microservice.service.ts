@@ -11,7 +11,8 @@ export class MicroserviceService{
     private microservices: Microservice[] = [
         new Microservice('Generate Site Config Report', 'Responsible for generating site config report.'),
         new Microservice('Calculate Prov. Link Agg. BW', "It will calculate aggregate bandwidth of all prov. links in network."),
-        new Microservice('DB Core', 'Microservice which handles DB operation')
+        new Microservice('DB Core', 'Microservice which handles DB operation'),
+        new Microservice('Project Manager', "Responsible for Project Management.")
       ];
 
     getMicroservices(){

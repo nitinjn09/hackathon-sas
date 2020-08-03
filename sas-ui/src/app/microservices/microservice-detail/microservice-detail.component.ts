@@ -2,6 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Microservice } from '../microservice.model';
 import { ActivatedRoute, Params, Route, Router } from '@angular/router';
 import { MicroserviceService } from '../microservice.service';
+import { DataFetcherService } from '../../shared/data-fetch.service';
 
 @Component({
   selector: 'app-microservice-detail',
@@ -15,7 +16,8 @@ export class MicroserviceDetailComponent implements OnInit {
 
   constructor(private microserviceService: MicroserviceService, 
               private route: ActivatedRoute,
-              private router: Router) { }
+              private router: Router,
+              private dataFetcherService: DataFetcherService) { }
 
   ngOnInit(): void {
     this.route.params.subscribe((params: Params) => {
@@ -31,6 +33,10 @@ export class MicroserviceDetailComponent implements OnInit {
   onDeleteMicroservice(){
     this.microserviceService.deletedMicroservice(this.id);
     this.router.navigate(['/microservices']);
+  }
+
+  onCollectLogs(){
+    this.dataFetcherService.fetchMicroservices(this.id);
   }
 
 }

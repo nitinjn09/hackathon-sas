@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
@@ -14,6 +15,8 @@ import { MicroserviceItemComponent } from './microservices/microservice-list/mic
 import { DropdownDirective } from './shared/dropdown.directive';
 import { MicroserviceStartComponent } from './microservices/microservice-start/microservice-start.component';
 import { MicroserviceEditComponent } from './microservices/microservice-edit/microservice-edit.component';
+import { MicroserviceService } from './microservices/microservice.service';
+
 
 @NgModule({
   declarations: [
@@ -33,9 +36,10 @@ import { MicroserviceEditComponent } from './microservices/microservice-edit/mic
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
 ],
-  providers: [],
+  providers: [MicroserviceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
