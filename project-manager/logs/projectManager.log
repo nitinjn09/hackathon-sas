@@ -380,3 +380,969 @@ Using generated security password: a3a31556-36e9-4332-be03-b6245c408ad1
 03-08-2020 19:14:21.027 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-15
 03-08-2020 19:14:21.031 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-15
 03-08-2020 19:14:21.035 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-15
+03-08-2020 19:15:21.050 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-16
+03-08-2020 19:15:21.051 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-16
+03-08-2020 19:15:21.051 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-16
+03-08-2020 19:16:21.058 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-17
+03-08-2020 19:16:21.059 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-17
+03-08-2020 19:16:21.060 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-17
+03-08-2020 19:17:21.064 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-18
+03-08-2020 19:17:21.066 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-18
+03-08-2020 19:17:21.066 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-18
+03-08-2020 19:18:21.079 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-19
+03-08-2020 19:18:21.080 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-19
+03-08-2020 19:18:21.081 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-19
+03-08-2020 19:19:21.094 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-20
+03-08-2020 19:19:21.095 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-20
+03-08-2020 19:19:21.097 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-20
+03-08-2020 19:20:21.101 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-21
+03-08-2020 19:20:21.102 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-21
+03-08-2020 19:20:21.103 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-21
+03-08-2020 19:21:21.112 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-22
+03-08-2020 19:21:21.115 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-22
+03-08-2020 19:21:21.115 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-22
+03-08-2020 19:22:21.129 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-23
+03-08-2020 19:22:21.130 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-23
+03-08-2020 19:22:21.131 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-23
+03-08-2020 19:23:21.135 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-24
+03-08-2020 19:23:21.138 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-24
+03-08-2020 19:23:21.140 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-24
+03-08-2020 19:24:21.148 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-25
+03-08-2020 19:24:21.149 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-25
+03-08-2020 19:24:21.150 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-25
+03-08-2020 19:25:21.171 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-26
+03-08-2020 19:25:21.173 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-26
+03-08-2020 19:25:21.175 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-26
+03-08-2020 19:26:21.186 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-27
+03-08-2020 19:26:21.186 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-27
+03-08-2020 19:26:21.187 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-27
+03-08-2020 19:27:21.198 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-28
+03-08-2020 19:27:21.199 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-28
+03-08-2020 19:27:21.199 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-28
+03-08-2020 19:28:21.205 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-29
+03-08-2020 19:28:21.206 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-29
+03-08-2020 19:28:21.207 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-29
+03-08-2020 19:29:21.213 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-30
+03-08-2020 19:29:21.214 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-30
+03-08-2020 19:29:21.214 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-30
+03-08-2020 19:30:21.216 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-31
+03-08-2020 19:30:21.217 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-31
+03-08-2020 19:30:21.218 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-31
+03-08-2020 19:31:21.224 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-32
+03-08-2020 19:31:21.225 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-32
+03-08-2020 19:31:21.225 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-32
+03-08-2020 19:32:21.235 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-33
+03-08-2020 19:32:21.235 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-33
+03-08-2020 19:32:21.236 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-33
+03-08-2020 19:33:21.237 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-34
+03-08-2020 19:33:21.239 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-34
+03-08-2020 19:33:21.240 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-34
+03-08-2020 19:34:21.253 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-35
+03-08-2020 19:34:21.254 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-35
+03-08-2020 19:34:21.255 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-35
+03-08-2020 19:35:21.258 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-36
+03-08-2020 19:35:21.262 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-36
+03-08-2020 19:35:21.262 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-36
+03-08-2020 19:36:21.280 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-37
+03-08-2020 19:36:21.289 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-37
+03-08-2020 19:36:21.291 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-37
+03-08-2020 19:37:21.292 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-38
+03-08-2020 19:37:21.294 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-38
+03-08-2020 19:37:21.294 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-38
+03-08-2020 19:38:21.296 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-39
+03-08-2020 19:38:21.297 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-39
+03-08-2020 19:38:21.298 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-39
+03-08-2020 19:39:21.299 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-40
+03-08-2020 19:39:21.300 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-40
+03-08-2020 19:39:21.300 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-40
+03-08-2020 19:40:21.311 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-41
+03-08-2020 19:40:21.314 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-41
+03-08-2020 19:40:21.315 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-41
+03-08-2020 19:41:21.323 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-42
+03-08-2020 19:41:21.325 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-42
+03-08-2020 19:41:21.327 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-42
+03-08-2020 19:42:21.336 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-43
+03-08-2020 19:42:21.337 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-43
+03-08-2020 19:42:21.337 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-43
+03-08-2020 19:43:21.340 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-44
+03-08-2020 19:43:21.341 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-44
+03-08-2020 19:43:21.341 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-44
+03-08-2020 19:44:21.351 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-45
+03-08-2020 19:44:21.351 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-45
+03-08-2020 19:44:21.352 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-45
+03-08-2020 19:45:21.372 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-46
+03-08-2020 19:45:21.376 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-46
+03-08-2020 19:45:21.377 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-46
+03-08-2020 19:46:21.396 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-47
+03-08-2020 19:46:21.396 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-47
+03-08-2020 19:46:21.397 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-47
+03-08-2020 19:47:21.402 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-48
+03-08-2020 19:47:21.403 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-48
+03-08-2020 19:47:21.404 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-48
+03-08-2020 19:48:21.408 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-49
+03-08-2020 19:48:21.414 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-49
+03-08-2020 19:48:21.415 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-49
+03-08-2020 19:49:21.429 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-50
+03-08-2020 19:49:21.430 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-50
+03-08-2020 19:49:21.431 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-50
+03-08-2020 19:50:21.431 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-51
+03-08-2020 19:50:21.432 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-51
+03-08-2020 19:50:21.433 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-51
+03-08-2020 19:51:21.445 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-52
+03-08-2020 19:51:21.447 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-52
+03-08-2020 19:51:21.447 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-52
+03-08-2020 19:52:21.447 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-53
+03-08-2020 19:52:21.448 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-53
+03-08-2020 19:52:21.449 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-53
+03-08-2020 19:53:21.449 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-54
+03-08-2020 19:53:21.450 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-54
+03-08-2020 19:53:21.450 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-54
+03-08-2020 19:54:21.457 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-55
+03-08-2020 19:54:21.458 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-55
+03-08-2020 19:54:21.459 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-55
+03-08-2020 19:55:21.465 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-56
+03-08-2020 19:55:21.471 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-56
+03-08-2020 19:55:21.472 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-56
+03-08-2020 19:56:21.484 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-57
+03-08-2020 19:56:21.485 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-57
+03-08-2020 19:56:21.486 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-57
+03-08-2020 19:57:21.497 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-58
+03-08-2020 19:57:21.498 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-58
+03-08-2020 19:57:21.498 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-58
+03-08-2020 19:58:21.507 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-59
+03-08-2020 19:58:21.508 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-59
+03-08-2020 19:58:21.508 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-59
+03-08-2020 19:59:21.513 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-60
+03-08-2020 19:59:21.517 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-60
+03-08-2020 19:59:21.518 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-60
+03-08-2020 20:00:21.520 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-61
+03-08-2020 20:00:21.521 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-61
+03-08-2020 20:00:21.522 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-61
+03-08-2020 20:01:21.530 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-62
+03-08-2020 20:01:21.531 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-62
+03-08-2020 20:01:21.531 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-62
+03-08-2020 20:02:21.534 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-63
+03-08-2020 20:02:21.536 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-63
+03-08-2020 20:02:21.537 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-63
+03-08-2020 20:03:21.538 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-64
+03-08-2020 20:03:21.539 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-64
+03-08-2020 20:03:21.540 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-64
+03-08-2020 20:04:21.580 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-65
+03-08-2020 20:04:21.621 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-65
+03-08-2020 20:04:21.626 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-65
+03-08-2020 20:05:21.638 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-66
+03-08-2020 20:05:21.681 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-66
+03-08-2020 20:05:21.682 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-66
+03-08-2020 20:06:21.690 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-67
+03-08-2020 20:06:21.691 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-67
+03-08-2020 20:06:21.691 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-67
+03-08-2020 20:07:21.707 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-68
+03-08-2020 20:07:21.708 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-68
+03-08-2020 20:07:21.708 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-68
+03-08-2020 20:08:21.709 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-69
+03-08-2020 20:08:21.712 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-69
+03-08-2020 20:08:21.714 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-69
+03-08-2020 20:09:21.725 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-70
+03-08-2020 20:09:21.725 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-70
+03-08-2020 20:09:21.725 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-70
+03-08-2020 20:10:21.732 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-71
+03-08-2020 20:10:21.732 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-71
+03-08-2020 20:10:21.733 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-71
+03-08-2020 20:11:21.737 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-72
+03-08-2020 20:11:21.740 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-72
+03-08-2020 20:11:21.740 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-72
+03-08-2020 20:12:21.752 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-73
+03-08-2020 20:12:21.754 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-73
+03-08-2020 20:12:21.755 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-73
+03-08-2020 20:13:21.758 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-74
+03-08-2020 20:13:21.760 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-74
+03-08-2020 20:13:21.761 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-74
+03-08-2020 20:14:21.768 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-75
+03-08-2020 20:14:21.769 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-75
+03-08-2020 20:14:21.770 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-75
+03-08-2020 20:15:21.775 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-76
+03-08-2020 20:15:21.776 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-76
+03-08-2020 20:15:21.776 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-76
+03-08-2020 20:16:21.782 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-77
+03-08-2020 20:16:21.788 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-77
+03-08-2020 20:16:21.794 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-77
+03-08-2020 20:17:21.810 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-78
+03-08-2020 20:17:21.811 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-78
+03-08-2020 20:17:21.812 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-78
+03-08-2020 20:18:21.825 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-79
+03-08-2020 20:18:21.832 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-79
+03-08-2020 20:18:21.834 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-79
+03-08-2020 20:19:21.846 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-80
+03-08-2020 20:19:21.848 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-80
+03-08-2020 20:19:21.849 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-80
+03-08-2020 20:20:21.861 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-81
+03-08-2020 20:20:21.862 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-81
+03-08-2020 20:20:21.862 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-81
+03-08-2020 20:21:21.865 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-82
+03-08-2020 20:21:21.868 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-82
+03-08-2020 20:21:21.872 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-82
+03-08-2020 20:22:21.876 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-83
+03-08-2020 20:22:21.878 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-83
+03-08-2020 20:22:21.880 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-83
+03-08-2020 20:23:21.882 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-84
+03-08-2020 20:23:21.883 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-84
+03-08-2020 20:23:21.883 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-84
+03-08-2020 20:24:21.900 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-85
+03-08-2020 20:24:21.904 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-85
+03-08-2020 20:24:21.906 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-85
+03-08-2020 20:25:21.912 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-86
+03-08-2020 20:25:21.914 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-86
+03-08-2020 20:25:21.915 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-86
+03-08-2020 20:26:21.929 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-87
+03-08-2020 20:26:21.932 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-87
+03-08-2020 20:26:21.936 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-87
+03-08-2020 20:27:21.943 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-88
+03-08-2020 20:27:21.946 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-88
+03-08-2020 20:27:21.947 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-88
+03-08-2020 20:28:21.964 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-89
+03-08-2020 20:28:21.970 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-89
+03-08-2020 20:28:21.971 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-89
+03-08-2020 20:29:21.982 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-90
+03-08-2020 20:29:21.986 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-90
+03-08-2020 20:29:21.989 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-90
+03-08-2020 20:30:21.999 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-91
+03-08-2020 20:30:22.000 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-91
+03-08-2020 20:30:22.002 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-91
+03-08-2020 20:31:22.012 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-92
+03-08-2020 20:31:22.015 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-92
+03-08-2020 20:31:22.017 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-92
+03-08-2020 20:32:22.025 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-93
+03-08-2020 20:32:22.025 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-93
+03-08-2020 20:32:22.026 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-93
+03-08-2020 20:33:22.034 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-94
+03-08-2020 20:33:22.035 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-94
+03-08-2020 20:33:22.036 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-94
+03-08-2020 20:34:22.040 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-95
+03-08-2020 20:34:22.041 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-95
+03-08-2020 20:34:22.041 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-95
+03-08-2020 20:35:22.044 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-96
+03-08-2020 20:35:22.047 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-96
+03-08-2020 20:35:22.048 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-96
+03-08-2020 20:36:39.471 [main] INFO  c.e.p.ProjectManagerApplication.logStarting - Starting ProjectManagerApplication on IN-Njain-LT with PID 25276 (C:\TNPS\njaintnps\tnps\hackathon-sas\project-manager\build\classes\java\main started by njain in C:\TNPS\njaintnps\tnps\hackathon-sas\project-manager)
+03-08-2020 20:36:39.482 [main] INFO  c.e.p.ProjectManagerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-08-2020 20:36:42.311 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+03-08-2020 20:36:42.344 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+03-08-2020 20:36:42.346 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+03-08-2020 20:36:42.662 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+03-08-2020 20:36:42.673 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2917 ms
+03-08-2020 20:36:43.208 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+03-08-2020 20:36:43.597 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8082 (http) with context path ''
+03-08-2020 20:36:43.609 [main] INFO  c.e.p.ProjectManagerApplication.logStarted - Started ProjectManagerApplication in 5.771 seconds (JVM running for 6.853)
+03-08-2020 20:36:43.616 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-0
+03-08-2020 20:36:43.617 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-0
+03-08-2020 20:36:43.618 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-0
+03-08-2020 20:37:28.602 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03-08-2020 20:37:28.604 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+03-08-2020 20:37:28.629 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 24 ms
+03-08-2020 20:38:02.614 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-1
+03-08-2020 20:38:02.617 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-1
+03-08-2020 20:38:02.626 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-1
+03-08-2020 20:38:02.640 [http-nio-8082-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (FileReader); line: 1, column: 0]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4344)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4189)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3218)
+	at com.example.projectmanager.ProjectController.fileUpload(ProjectController.java:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+03-08-2020 20:39:02.630 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-2
+03-08-2020 20:39:02.640 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-2
+03-08-2020 20:39:02.645 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-2
+03-08-2020 20:40:02.662 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-3
+03-08-2020 20:40:02.667 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-3
+03-08-2020 20:40:02.668 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-3
+03-08-2020 20:41:02.682 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-4
+03-08-2020 20:41:02.686 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-4
+03-08-2020 20:41:02.689 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-4
+03-08-2020 20:42:02.700 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-5
+03-08-2020 20:42:02.706 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-5
+03-08-2020 20:42:02.709 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-5
+03-08-2020 20:43:02.726 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-6
+03-08-2020 20:43:02.729 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-6
+03-08-2020 20:43:02.731 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-6
+03-08-2020 20:44:02.735 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-7
+03-08-2020 20:44:02.739 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-7
+03-08-2020 20:44:02.740 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-7
+03-08-2020 20:45:02.756 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-8
+03-08-2020 20:45:02.758 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-8
+03-08-2020 20:45:02.760 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-8
+03-08-2020 20:46:02.776 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-9
+03-08-2020 20:46:02.780 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-9
+03-08-2020 20:46:02.782 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-9
+03-08-2020 20:47:02.798 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-10
+03-08-2020 20:47:02.802 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-10
+03-08-2020 20:47:02.806 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-10
+03-08-2020 20:48:02.823 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-11
+03-08-2020 20:48:02.826 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-11
+03-08-2020 20:48:02.827 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-11
+03-08-2020 20:49:02.846 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-12
+03-08-2020 20:49:02.849 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-12
+03-08-2020 20:49:02.852 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-12
+03-08-2020 20:50:02.857 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-13
+03-08-2020 20:50:02.861 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-13
+03-08-2020 20:50:02.864 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-13
+03-08-2020 20:51:02.870 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-14
+03-08-2020 20:51:02.875 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-14
+03-08-2020 20:51:02.877 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-14
+03-08-2020 20:52:02.892 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-15
+03-08-2020 20:52:02.894 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-15
+03-08-2020 20:52:02.895 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-15
+03-08-2020 20:53:02.898 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-16
+03-08-2020 20:53:02.903 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-16
+03-08-2020 20:53:02.908 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-16
+03-08-2020 20:54:02.921 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-17
+03-08-2020 20:54:02.925 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-17
+03-08-2020 20:54:02.927 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-17
+03-08-2020 20:55:02.945 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-18
+03-08-2020 20:55:02.948 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-18
+03-08-2020 20:55:02.950 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-18
+03-08-2020 20:56:02.962 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-19
+03-08-2020 20:56:02.965 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-19
+03-08-2020 20:56:02.967 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-19
+03-08-2020 20:57:02.985 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-20
+03-08-2020 20:57:02.988 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-20
+03-08-2020 20:57:02.990 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-20
+03-08-2020 20:58:02.998 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-21
+03-08-2020 20:58:03.002 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-21
+03-08-2020 20:58:03.003 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-21
+03-08-2020 20:59:03.003 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-22
+03-08-2020 20:59:03.007 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-22
+03-08-2020 20:59:03.009 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-22
+03-08-2020 21:00:03.022 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-23
+03-08-2020 21:00:03.025 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-23
+03-08-2020 21:00:03.027 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-23
+03-08-2020 21:01:03.033 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-24
+03-08-2020 21:01:03.036 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-24
+03-08-2020 21:01:03.038 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-24
+03-08-2020 21:02:03.040 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-25
+03-08-2020 21:02:03.043 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-25
+03-08-2020 21:02:03.044 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-25
+03-08-2020 21:03:03.051 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-26
+03-08-2020 21:03:03.055 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-26
+03-08-2020 21:03:03.056 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-26
+03-08-2020 21:04:03.063 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-27
+03-08-2020 21:04:03.066 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-27
+03-08-2020 21:04:03.067 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-27
+03-08-2020 21:05:03.073 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-28
+03-08-2020 21:05:03.074 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-28
+03-08-2020 21:05:03.075 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-28
+03-08-2020 21:06:03.077 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-29
+03-08-2020 21:06:03.078 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-29
+03-08-2020 21:06:03.078 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-29
+03-08-2020 21:07:03.090 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-30
+03-08-2020 21:07:03.091 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-30
+03-08-2020 21:07:03.092 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-30
+03-08-2020 21:08:03.103 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-31
+03-08-2020 21:08:03.104 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-31
+03-08-2020 21:08:03.104 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-31
+03-08-2020 21:09:03.116 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-32
+03-08-2020 21:09:03.118 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-32
+03-08-2020 21:09:03.120 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-32
+03-08-2020 21:10:03.126 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-33
+03-08-2020 21:10:03.129 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-33
+03-08-2020 21:10:03.130 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-33
+03-08-2020 21:11:03.140 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-34
+03-08-2020 21:11:03.143 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-34
+03-08-2020 21:11:03.145 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-34
+03-08-2020 21:12:03.157 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-35
+03-08-2020 21:12:03.161 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-35
+03-08-2020 21:12:03.162 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-35
+03-08-2020 21:13:03.165 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-36
+03-08-2020 21:13:03.168 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-36
+03-08-2020 21:13:03.169 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-36
+03-08-2020 21:14:03.178 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-37
+03-08-2020 21:14:03.183 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-37
+03-08-2020 21:14:03.184 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-37
+03-08-2020 21:15:03.188 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-38
+03-08-2020 21:15:03.189 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-38
+03-08-2020 21:15:03.192 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-38
+03-08-2020 21:16:03.204 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-39
+03-08-2020 21:16:03.205 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-39
+03-08-2020 21:16:03.205 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-39
+03-08-2020 21:17:03.216 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-40
+03-08-2020 21:17:03.217 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-40
+03-08-2020 21:17:03.218 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-40
+03-08-2020 21:18:03.233 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-41
+03-08-2020 21:18:03.234 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-41
+03-08-2020 21:18:03.235 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-41
+03-08-2020 21:19:03.242 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-42
+03-08-2020 21:19:03.243 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-42
+03-08-2020 21:19:03.244 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-42
+03-08-2020 21:20:03.259 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-43
+03-08-2020 21:20:03.260 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-43
+03-08-2020 21:20:03.260 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-43
+03-08-2020 21:21:03.264 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-44
+03-08-2020 21:21:03.265 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-44
+03-08-2020 21:21:03.265 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-44
+03-08-2020 21:22:03.267 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-45
+03-08-2020 21:22:03.268 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-45
+03-08-2020 21:22:03.268 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-45
+03-08-2020 21:23:03.274 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-46
+03-08-2020 21:23:03.275 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-46
+03-08-2020 21:23:03.275 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-46
+03-08-2020 21:24:03.282 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-47
+03-08-2020 21:24:03.283 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-47
+03-08-2020 21:24:03.283 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-47
+03-08-2020 21:25:03.296 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-48
+03-08-2020 21:25:03.297 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-48
+03-08-2020 21:25:03.298 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-48
+03-08-2020 21:26:03.310 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-49
+03-08-2020 21:26:03.311 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-49
+03-08-2020 21:26:03.311 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-49
+03-08-2020 21:27:03.323 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-50
+03-08-2020 21:27:03.324 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-50
+03-08-2020 21:27:03.325 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-50
+03-08-2020 21:28:03.329 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-51
+03-08-2020 21:28:03.330 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-51
+03-08-2020 21:28:03.331 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-51
+03-08-2020 21:29:03.346 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-52
+03-08-2020 21:29:03.349 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-52
+03-08-2020 21:29:03.350 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-52
+03-08-2020 21:30:03.352 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-53
+03-08-2020 21:30:03.353 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-53
+03-08-2020 21:30:03.353 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-53
+03-08-2020 21:31:03.369 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-54
+03-08-2020 21:31:03.371 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-54
+03-08-2020 21:31:03.372 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-54
+03-08-2020 21:32:03.388 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-55
+03-08-2020 21:32:03.398 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-55
+03-08-2020 21:32:03.401 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-55
+03-08-2020 21:33:03.412 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-56
+03-08-2020 21:33:03.417 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-56
+03-08-2020 21:33:03.420 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-56
+03-08-2020 21:34:03.425 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-57
+03-08-2020 21:34:03.431 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-57
+03-08-2020 21:34:03.433 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-57
+03-08-2020 21:35:03.443 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-58
+03-08-2020 21:35:03.444 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-58
+03-08-2020 21:35:03.445 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-58
+03-08-2020 21:36:03.461 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-59
+03-08-2020 21:36:03.464 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-59
+03-08-2020 21:36:03.465 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-59
+03-08-2020 21:37:03.481 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-60
+03-08-2020 21:37:03.484 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-60
+03-08-2020 21:37:03.486 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-60
+03-08-2020 21:38:03.494 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-61
+03-08-2020 21:38:03.496 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-61
+03-08-2020 21:38:03.496 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-61
+03-08-2020 21:39:03.509 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-62
+03-08-2020 21:39:03.510 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-62
+03-08-2020 21:39:03.511 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-62
+03-08-2020 21:40:03.516 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-63
+03-08-2020 21:40:03.517 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-63
+03-08-2020 21:40:03.517 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-63
+03-08-2020 21:41:03.531 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-64
+03-08-2020 21:41:03.532 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-64
+03-08-2020 21:41:03.533 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-64
+03-08-2020 21:42:03.543 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-65
+03-08-2020 21:42:03.545 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-65
+03-08-2020 21:42:03.545 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-65
+03-08-2020 21:43:03.547 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-66
+03-08-2020 21:43:03.548 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-66
+03-08-2020 21:43:03.548 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-66
+03-08-2020 21:44:03.554 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-67
+03-08-2020 21:44:03.556 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-67
+03-08-2020 21:44:03.558 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-67
+03-08-2020 21:45:03.569 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-68
+03-08-2020 21:45:03.571 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-68
+03-08-2020 21:45:03.572 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-68
+03-08-2020 21:46:03.584 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-69
+03-08-2020 21:46:03.586 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-69
+03-08-2020 21:46:03.586 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-69
+03-08-2020 21:47:03.593 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-70
+03-08-2020 21:47:03.594 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-70
+03-08-2020 21:47:03.595 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-70
+03-08-2020 21:48:03.606 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-71
+03-08-2020 21:48:03.608 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-71
+03-08-2020 21:48:03.609 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-71
+03-08-2020 21:49:03.618 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-72
+03-08-2020 21:49:03.621 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-72
+03-08-2020 21:49:03.622 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-72
+03-08-2020 21:50:03.637 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-73
+03-08-2020 21:50:03.639 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-73
+03-08-2020 21:50:03.639 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-73
+03-08-2020 21:51:03.649 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-74
+03-08-2020 21:51:03.650 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-74
+03-08-2020 21:51:03.650 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-74
+03-08-2020 21:52:03.656 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-75
+03-08-2020 21:52:03.658 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-75
+03-08-2020 21:52:03.658 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-75
+03-08-2020 21:53:03.669 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-76
+03-08-2020 21:53:03.671 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-76
+03-08-2020 21:53:03.673 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-76
+03-08-2020 21:54:03.688 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-77
+03-08-2020 21:54:03.689 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-77
+03-08-2020 21:54:03.689 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-77
+03-08-2020 21:55:03.694 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-78
+03-08-2020 21:55:03.695 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-78
+03-08-2020 21:55:03.695 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-78
+03-08-2020 21:56:03.712 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-79
+03-08-2020 21:56:03.715 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-79
+03-08-2020 21:56:03.715 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-79
+03-08-2020 21:57:03.728 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-80
+03-08-2020 21:57:03.729 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-80
+03-08-2020 21:57:03.730 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-80
+03-08-2020 21:58:03.736 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-81
+03-08-2020 21:58:03.738 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-81
+03-08-2020 21:58:03.738 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-81
+03-08-2020 21:59:03.760 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-82
+03-08-2020 21:59:03.761 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-82
+03-08-2020 21:59:03.762 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-82
+03-08-2020 22:00:03.767 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-83
+03-08-2020 22:00:03.769 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-83
+03-08-2020 22:00:03.770 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-83
+03-08-2020 22:01:03.777 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-84
+03-08-2020 22:01:03.779 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-84
+03-08-2020 22:01:03.780 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-84
+03-08-2020 22:02:03.785 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-85
+03-08-2020 22:02:03.789 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-85
+03-08-2020 22:02:03.790 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-85
+03-08-2020 22:03:03.804 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-86
+03-08-2020 22:03:03.805 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-86
+03-08-2020 22:03:03.805 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-86
+03-08-2020 22:04:03.821 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-87
+03-08-2020 22:04:03.825 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-87
+03-08-2020 22:04:03.827 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-87
+03-08-2020 22:05:03.843 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-88
+03-08-2020 22:05:03.845 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-88
+03-08-2020 22:05:03.848 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-88
+03-08-2020 22:06:18.268 [main] INFO  c.e.p.ProjectManagerApplication.logStarting - Starting ProjectManagerApplication on IN-Njain-LT with PID 13376 (C:\TNPS\njaintnps\tnps\hackathon-sas\project-manager\build\classes\java\main started by njain in C:\TNPS\njaintnps\tnps\hackathon-sas\project-manager)
+03-08-2020 22:06:18.268 [main] INFO  c.e.p.ProjectManagerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-08-2020 22:06:21.157 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+03-08-2020 22:06:21.178 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+03-08-2020 22:06:21.180 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+03-08-2020 22:06:21.423 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+03-08-2020 22:06:21.424 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3025 ms
+03-08-2020 22:06:21.858 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+03-08-2020 22:06:22.277 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8082 (http) with context path ''
+03-08-2020 22:06:22.286 [main] INFO  c.e.p.ProjectManagerApplication.logStarted - Started ProjectManagerApplication in 5.6 seconds (JVM running for 6.465)
+03-08-2020 22:06:22.298 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-0
+03-08-2020 22:06:22.300 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-0
+03-08-2020 22:06:22.300 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-0
+03-08-2020 22:07:04.852 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03-08-2020 22:07:04.854 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+03-08-2020 22:07:04.880 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 24 ms
+03-08-2020 22:07:55.189 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-1
+03-08-2020 22:07:55.192 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-1
+03-08-2020 22:07:55.193 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-1
+03-08-2020 22:07:55.214 [http-nio-8082-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.io.IOException: Stream closed
+	at java.base/sun.nio.cs.StreamDecoder.ensureOpen(StreamDecoder.java:46)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:148)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:185)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._loadMore(ReaderBasedJsonParser.java:248)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2353)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:671)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4340)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4189)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3218)
+	at com.example.projectmanager.ProjectController.fileUpload(ProjectController.java:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+03-08-2020 22:08:55.204 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-2
+03-08-2020 22:08:55.211 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-2
+03-08-2020 22:08:55.224 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-2
+03-08-2020 22:09:55.232 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-3
+03-08-2020 22:09:55.233 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-3
+03-08-2020 22:09:55.234 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-3
+03-08-2020 22:10:59.783 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-4
+03-08-2020 22:10:59.786 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-4
+03-08-2020 22:11:13.043 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-4
+03-08-2020 22:11:13.047 [http-nio-8082-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.io.FileNotFoundException: conf (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at com.example.projectmanager.ProjectController.fileUpload(ProjectController.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+03-08-2020 22:12:13.059 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-5
+03-08-2020 22:12:13.059 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-5
+03-08-2020 22:12:13.060 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-5
+03-08-2020 22:12:46.624 [http-nio-8082-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'featureOneEnable': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (FileReader); line: 1, column: 17]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1840)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:722)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2867)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2845)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._matchToken(ReaderBasedJsonParser.java:2626)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._matchFalse(ReaderBasedJsonParser.java:2594)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:744)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4340)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4189)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3218)
+	at com.example.projectmanager.ProjectController.fileUpload(ProjectController.java:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+03-08-2020 22:13:13.074 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-6
+03-08-2020 22:13:13.075 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-6
+03-08-2020 22:13:13.076 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-6
+03-08-2020 22:13:46.076 [http-nio-8082-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.io.FileNotFoundException: conf (Access is denied)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at com.example.projectmanager.ProjectController.fileUpload(ProjectController.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+03-08-2020 22:14:13.091 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-7
+03-08-2020 22:14:13.101 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-7
+03-08-2020 22:14:13.101 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-7
+03-08-2020 22:14:17.804 [main] INFO  c.e.p.ProjectManagerApplication.logStarting - Starting ProjectManagerApplication on IN-Njain-LT with PID 21328 (C:\TNPS\njaintnps\tnps\hackathon-sas\project-manager\build\classes\java\main started by njain in C:\TNPS\njaintnps\tnps\hackathon-sas\project-manager)
+03-08-2020 22:14:17.814 [main] INFO  c.e.p.ProjectManagerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-08-2020 22:14:21.465 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+03-08-2020 22:14:21.491 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+03-08-2020 22:14:21.494 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+03-08-2020 22:14:21.775 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+03-08-2020 22:14:21.776 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3436 ms
+03-08-2020 22:14:22.513 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+03-08-2020 22:14:23.756 [main] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+03-08-2020 22:14:23.818 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03-08-2020 22:14:23.823 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+03-08-2020 22:14:23.833 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+03-08-2020 22:15:11.697 [main] INFO  c.e.p.ProjectManagerApplication.logStarting - Starting ProjectManagerApplication on IN-Njain-LT with PID 24016 (C:\TNPS\njaintnps\tnps\hackathon-sas\project-manager\build\classes\java\main started by njain in C:\TNPS\njaintnps\tnps\hackathon-sas\project-manager)
+03-08-2020 22:15:11.708 [main] INFO  c.e.p.ProjectManagerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-08-2020 22:15:13.114 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-8
+03-08-2020 22:15:13.114 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-8
+03-08-2020 22:15:13.114 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-8
+03-08-2020 22:15:14.566 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+03-08-2020 22:15:14.592 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+03-08-2020 22:15:14.593 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+03-08-2020 22:15:14.912 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+03-08-2020 22:15:14.916 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3096 ms
+03-08-2020 22:15:15.471 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+03-08-2020 22:15:15.774 [main] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+03-08-2020 22:15:15.812 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03-08-2020 22:15:15.815 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+03-08-2020 22:15:15.821 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+03-08-2020 22:16:03.705 [main] INFO  c.e.p.ProjectManagerApplication.logStarting - Starting ProjectManagerApplication on IN-Njain-LT with PID 13512 (C:\TNPS\njaintnps\tnps\hackathon-sas\project-manager\build\classes\java\main started by njain in C:\TNPS\njaintnps\tnps\hackathon-sas\project-manager)
+03-08-2020 22:16:03.711 [main] INFO  c.e.p.ProjectManagerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-08-2020 22:16:06.861 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+03-08-2020 22:16:06.895 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+03-08-2020 22:16:06.898 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+03-08-2020 22:16:07.228 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+03-08-2020 22:16:07.229 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3403 ms
+03-08-2020 22:16:07.961 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+03-08-2020 22:16:08.360 [main] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+03-08-2020 22:16:08.410 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03-08-2020 22:16:08.417 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+03-08-2020 22:16:08.436 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+03-08-2020 22:16:13.132 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-9
+03-08-2020 22:16:13.136 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-9
+03-08-2020 22:16:13.137 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-9
+03-08-2020 22:17:13.146 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-10
+03-08-2020 22:17:13.147 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-10
+03-08-2020 22:17:13.147 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-10
+03-08-2020 22:18:13.148 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-11
+03-08-2020 22:18:13.149 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-11
+03-08-2020 22:18:13.150 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-11
+03-08-2020 22:19:13.152 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-12
+03-08-2020 22:19:13.157 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-12
+03-08-2020 22:19:13.160 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-12
+03-08-2020 22:20:13.175 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-13
+03-08-2020 22:20:13.179 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-13
+03-08-2020 22:20:13.182 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-13
+03-08-2020 22:21:13.197 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-14
+03-08-2020 22:21:13.198 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-14
+03-08-2020 22:21:13.199 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-14
+03-08-2020 22:22:13.214 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-15
+03-08-2020 22:22:13.217 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-15
+03-08-2020 22:22:13.219 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-15
+03-08-2020 22:23:13.230 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-16
+03-08-2020 22:23:13.232 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-16
+03-08-2020 22:23:13.233 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-16

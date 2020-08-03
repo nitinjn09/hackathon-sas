@@ -62,14 +62,18 @@ public class ProjectController
         File convertFile = new File("C:\\Users\\prastogi\\Desktop\\" + file.getOriginalFilename());
         convertFile.createNewFile();
         FileReader reader = new FileReader(convertFile);
-        JSONParser jsonParser = new JSONParser(reader);
+        //JSONParser jsonParser = new JSONParser(reader);
         //Object obj = jsonParser.parse();
         //Yaml yaml = new Yaml();
-        //ObjectMapper mapper = new ObjectMapper(new YamlMapFactoryBean());
+
+        ObjectMapper mapper = new ObjectMapper();
+        ComponentConfig componentConfig = mapper.readValue(reader, ComponentConfig.class);
+        System.out.println(componentConfig);
+
         //ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
-        FileOutputStream fout = new FileOutputStream(convertFile);
-        fout.write(file.getBytes());
-        fout.close();
+        //FileOutputStream fout = new FileOutputStream(convertFile);
+        //fout.write(file.getBytes());
+        //fout.close();
         return "File is upload successfully";
     }
 	
