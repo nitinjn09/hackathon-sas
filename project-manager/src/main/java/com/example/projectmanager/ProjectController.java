@@ -7,9 +7,11 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 
 @RestController
@@ -41,5 +43,16 @@ public class ProjectController
                 MediaType.parseMediaType("application/txt")).body(resource);
 
         return responseEntity;
+    }
+
+    @RequestMapping(value = "/upload-conf", method = RequestMethod.POST, consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    public String fileUpload(@RequestParam("file") MultipartFile file) throws IOException
+    {
+        File convertFile = new File("C:\\TNPS\\njaintnps\\tnps\\hackathon-sas\\project-manager\\conf\\"+file.getOriginalFilename());
+        convertFile.createNewFile();
+        FileOutputStream fout = new FileOutputStream(convertFile);
+        fout.write(file.getBytes());
+        fout.close();
+        return "File is upload successfully";
     }
 }
