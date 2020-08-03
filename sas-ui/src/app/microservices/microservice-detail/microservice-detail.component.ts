@@ -3,8 +3,6 @@ import { Microservice } from '../microservice.model';
 import { ActivatedRoute, Params, Route, Router } from '@angular/router';
 import { MicroserviceService } from '../microservice.service';
 import { DataFetcherService } from '../../shared/data-fetch.service';
-import { DataUploadService } from '../../shared/data-upload.service';
-import {HttpResponse} from '@angular/common/http';
 
 @Component({
   selector: 'app-microservice-detail',
@@ -15,15 +13,11 @@ export class MicroserviceDetailComponent implements OnInit {
 
   microservice: Microservice;
   id: number;
-	selectedFiles: File[];
-	currentFile: File;
-  afterUploadMsg;
 
   constructor(private microserviceService: MicroserviceService, 
               private route: ActivatedRoute,
               private router: Router,
-              private dataFetcherService: DataFetcherService,
-              private dataUploadService: DataUploadService) { }
+              private dataFetcherService: DataFetcherService) { }
 
   ngOnInit(): void {
     this.route.params.subscribe((params: Params) => {
@@ -36,6 +30,10 @@ export class MicroserviceDetailComponent implements OnInit {
     this.router.navigate(['edit'], {relativeTo: this.route});
   }
 
+  onConfigMicroservice(){
+    this.router.navigate(['config'], {relativeTo: this.route});
+  }
+
   onDeleteMicroservice(){
     this.microserviceService.deletedMicroservice(this.id);
     this.router.navigate(['/microservices']);
@@ -45,28 +43,13 @@ export class MicroserviceDetailComponent implements OnInit {
     this.dataFetcherService.fetchMicroservices(this.id);
   }
   
-  makeUploadFileOptionVisible(){
-    console.log('inside makeUploadFileOptionVisible');
-    var uploadFileDiv = document.getElementById('uploadFile');
-    uploadFileDiv.style.display = 'inline';
-  }
-
-  selectFile(event) {
-    this.selectedFiles = Array.from(event.target.files);
-  }
-
   onUploadFile(){
-
-    this.currentFile = this.selectedFiles[0];
-    this.dataUploadService.uploadFile(this.currentFile).subscribe(response => {
-		this.selectedFiles.splice(0,this.selectedFiles.length);
-     if (response instanceof HttpResponse) {
-     this.afterUploadMsg = response.body;
-     console.log(response.body);
-      }	  
-    });    
+    //this.dataFetcherService.uploadDataonMicroservice(this.id);
 
   }
 
+  onGetConfig(){
+    this.router.navigate(['config'], {relativeTo: this.route});
+ }
 
 }

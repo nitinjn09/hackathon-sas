@@ -16,6 +16,7 @@ import { DropdownDirective } from './shared/dropdown.directive';
 import { MicroserviceStartComponent } from './microservices/microservice-start/microservice-start.component';
 import { MicroserviceEditComponent } from './microservices/microservice-edit/microservice-edit.component';
 import { MicroserviceService } from './microservices/microservice.service';
+import { MicroserviceConfigComponent } from './microservices/microservice-config/microservice-config.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { MicroserviceService } from './microservices/microservice.service';
     MicroserviceItemComponent,
     DropdownDirective,
     MicroserviceStartComponent,
-    MicroserviceEditComponent
+    MicroserviceEditComponent,
+    MicroserviceConfigComponent
   ],
   imports: [
     BrowserModule,

@@ -21,24 +21,12 @@
             </button>
             <ul class="dropdown-menu">
                 <li><a style="cursor: pointer;" (click)="onDownloadLogs()">Download Logs</a></li>
-                <li><a style="cursor: pointer;">Get Configuration</a></li>
-                <li><a style="cursor: pointer;"  (click)="makeUploadFileOptionVisible()">Update configuation</a></li>
+                <li><a style="cursor: pointer;" (click)="onGetConfig()">Get Configuration</a></li>
+                <li><a style="cursor: pointer;"  (click)="onUploadFile()">Update configuation</a></li>
                 <li><a style="cursor: pointer;">Take DB Snap shot</a></li>
                <!-- <li><a style="cursor: pointer;" (click)="onEditMicroservice()">Edit</a></li>
                 <li><a style="cursor: pointer;" (click)="onDeleteMicroservice()">Delete</a></li> -->
             </ul>
-        </div>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-xs-12">
-        <div id='uploadFile' style="text-align:center; position: relative; display: none;">
-            <div *ngIf="afterUploadMsg" [innerHTML]="afterUploadMsg"></div>
-            <label>
-                <input type="file" (change)="selectFile($event)">
-            </label>
-            <button [disabled]="!selectedFiles" (click)="onUploadFile()">Upload</button>
         </div>
     </div>
 </div>

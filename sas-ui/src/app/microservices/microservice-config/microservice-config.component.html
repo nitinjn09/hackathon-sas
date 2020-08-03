@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col-xs-12">
+       
+            <div class="row">
+                <div class="col-xs-12">
+                    <button type="button" class="btn btn-primary" (click)="onGetConfig()">View YML Config</button>
+                    <button type="button" class="btn btn-danger" (click)="onCancel()">Cancel</button>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-xs-12">
+                   <label for="description">Description</label>
+                    <textarea readOnly type="text" id="description"  class="form-control" rows="20">{{ configMS }}</textarea>
+                </div>
+            </div>
+
+            <hr>
+            <div class="row">
+                <div class="col-xs-12">
+                    <button type="button" class="btn btn-primary" (click)="onGetConfig()">Download</button>
+                </div>
+            </div>
+    </div>
+</div>
