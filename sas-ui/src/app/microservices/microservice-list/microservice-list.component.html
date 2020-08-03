@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-xs-12">
+        <button class="btn btn-success" (click)="onNewMicroService()">New Microservice</button>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-xs-12">
+        <app-microservice-item
+        *ngFor="let microserviceEl of microservices; let i = index"
+        [microservice]="microserviceEl"
+        [index]="i"></app-microservice-item>
+    </div>
+</div>
+
+
