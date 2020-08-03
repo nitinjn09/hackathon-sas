@@ -32,26 +32,5 @@ export class DataFetcherService{
             });
         }
         
-        
     }
-/*
-    uploadDataonMicroservice(id: number){
-        const frmData = new FormData();
-    
-        for (var i = 0; i < this.myFiles.length; i++) { 
-          frmData.append("fileUpload", this.myFiles[i]);
-        }
-        
-        this.http.post('http://localhost:8081/upload-conf/', frmData).subscribe(
-          data => {
-            // SHOW A MESSAGE RECEIVED FROM THE WEB API.
-            this.sMsg = data as string;
-            console.log (this.sMsg);
-          },
-          (err: HttpErrorResponse) => {
-            console.log (err.message);    // Show error, if any.
-          }
-        );   
-
-    }*/
 }
