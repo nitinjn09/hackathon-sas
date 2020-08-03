@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
 @SpringBootApplication
 @Slf4j
 public class ProjectManagerApplication {
-	private static final Logger log = LoggerFactory.getLogger(ProjectManagerApplication.class);
+	//private static final Logger log = LoggerFactory.getLogger(ProjectManagerApplication.class);
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProjectManagerApplication.class, args);
@@ -29,10 +29,16 @@ public class ProjectManagerApplication {
 	{
 		return args ->
 		{
-			int t= 0;
-			for(int i =0; i<20; i++)
+			int count  = 0;
+			while (true)
 			{
-				log.debug("Some error message");
+				log.trace("TRACE-"+count);
+				log.info("INFO-"+count);
+				log.debug("DEBUG-"+count);
+				log.warn("WARN-"+count);
+				log.error("ERROR-"+count);
+				count++;
+				Thread.sleep(100000);
 			}
 		};
 	}

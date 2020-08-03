@@ -22,3 +22,10 @@ dependencies {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
 }
+
+/*
+docker {
+	dependsOn(build)
+	name "sas-tool-image:0.0.1"
+	files 'build\\libs\\sas-tool-0.0.1-SNAPSHOT.jar'
+}*/

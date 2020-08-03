@@ -33,3 +33,10 @@ dependencies {
 test {
 	useJUnitPlatform()
 }
+
+/*
+docker {
+	dependsOn(build)
+	name "project-manager-image:0.0.1"
+	files 'build\\libs\\project-manager-0.0.1-SNAPSHOT.jar'
+}*/

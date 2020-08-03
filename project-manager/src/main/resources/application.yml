@@ -1,4 +1,14 @@
 server:
   port : 8082
 
-
+logging:
+  level:
+    ROOT: INFO
+    com:
+      example:
+        projectmanager: DEBUG
+  path: logs
+  file: ${logging.path}/projectManager.log
+  pattern:
+    file: '%d{dd-MM-yyyy HH:mm:ss.SSS} [%thread] %-5level %logger{36}.%M - %msg%n'
+    console: '%d{dd-MM-yyyy HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %logger{36}.%M - %msg%n'
