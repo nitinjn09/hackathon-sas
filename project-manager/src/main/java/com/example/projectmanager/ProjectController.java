@@ -1,5 +1,6 @@
 package com.example.projectmanager;
 
+import org.apache.coyote.Response;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
@@ -27,7 +28,6 @@ public class ProjectController
     public ResponseEntity<Object> downloadFile() throws IOException
     {
         String inputFile = "C:\\TNPS\\njaintnps\\tnps\\hackathon-sas\\project-manager\\logs\\projectManager.log";
-        String filename = "projectManager.log";
         File file = new File(inputFile);
         InputStreamResource resource = new InputStreamResource(new FileInputStream(file));
         HttpHeaders headers = new HttpHeaders();

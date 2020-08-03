@@ -2,6 +2,7 @@ package com.example.projectmanager;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -19,6 +20,9 @@ public class ProjectManagerApplication {
 		SpringApplication.run(ProjectManagerApplication.class, args);
 	}
 
+	@Autowired
+	ProjectManagerLogger projectManagerLogger;
+
 	@Bean
 	public RestTemplate restTemplate(RestTemplateBuilder builder) {
 		return builder.build();
@@ -29,17 +33,7 @@ public class ProjectManagerApplication {
 	{
 		return args ->
 		{
-			int count  = 0;
-			while (true)
-			{
-				log.trace("TRACE-"+count);
-				log.info("INFO-"+count);
-				log.debug("DEBUG-"+count);
-				log.warn("WARN-"+count);
-				log.error("ERROR-"+count);
-				count++;
-				Thread.sleep(100000);
-			}
+			projectManagerLogger.test();
 		};
 	}
 }
