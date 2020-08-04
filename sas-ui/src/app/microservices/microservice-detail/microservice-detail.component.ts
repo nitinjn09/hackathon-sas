@@ -74,4 +74,8 @@ export class MicroserviceDetailComponent implements OnInit {
     this.router.navigate(['config'], {relativeTo: this.route});
  }
 
+ onDbsnap(){
+    this.router.navigate(['dbsnap'], {relativeTo: this.route});
+  }
+
 }

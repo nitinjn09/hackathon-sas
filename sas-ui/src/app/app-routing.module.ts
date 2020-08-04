@@ -5,6 +5,7 @@ import { MicroserviceStartComponent } from './microservices/microservice-start/m
 import { MicroserviceDetailComponent } from './microservices/microservice-detail/microservice-detail.component';
 import { MicroserviceEditComponent } from './microservices/microservice-edit/microservice-edit.component';
 import { MicroserviceConfigComponent } from './microservices/microservice-config/microservice-config.component';
+import { DbsnapComponent } from './microservices/dbsnap/dbsnap.component';
 
 const appRoutes: Routes = [
   { path: '', redirectTo: '/microservices', pathMatch: 'full' },
@@ -13,7 +14,8 @@ const appRoutes: Routes = [
     {path: 'new', component: MicroserviceEditComponent},
     {path: ':id', component: MicroserviceDetailComponent},
     {path: ':id/edit', component: MicroserviceEditComponent},
-    {path: ':id/config', component: MicroserviceConfigComponent}
+    {path: ':id/config', component: MicroserviceConfigComponent},
+    {path: ':id/dbsnap', component: DbsnapComponent}
   ] },
 ];
 

@@ -17,7 +17,9 @@ import { MicroserviceStartComponent } from './microservices/microservice-start/m
 import { MicroserviceEditComponent } from './microservices/microservice-edit/microservice-edit.component';
 import { MicroserviceService } from './microservices/microservice.service';
 import { MicroserviceConfigComponent } from './microservices/microservice-config/microservice-config.component';
-
+import { DbsnapComponent } from './microservices/dbsnap/dbsnap.component';
+import {TableModule} from 'primeng/table';
+import { EnvServiceProvider } from './microservices/env.service.provider';
 
 @NgModule({
   declarations: [
@@ -32,16 +34,19 @@ import { MicroserviceConfigComponent } from './microservices/microservice-config
     DropdownDirective,
     MicroserviceStartComponent,
     MicroserviceEditComponent,
-    MicroserviceConfigComponent
+    MicroserviceConfigComponent,
+    DbsnapComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+    TableModule,
     HttpClientModule
 ],
-  providers: [MicroserviceService],
+  providers: [MicroserviceService,
+              EnvServiceProvider],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

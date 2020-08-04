@@ -4,11 +4,12 @@ import { MicroserviceService } from "../microservices/microservice.service";
 import * as fileSaver from 'file-saver';
 import { stringify } from "querystring";
 import { Observable } from 'rxjs';
+import { EnvService } from '../microservices/env.service';
 
 @Injectable({providedIn: 'root'})
 export class DataFetcherService{
 
-    constructor(private http: HttpClient,private microservice:MicroserviceService){
+    constructor(private env: EnvService, private http: HttpClient,private microservice:MicroserviceService){
         
     }
 
@@ -27,8 +28,14 @@ export class DataFetcherService{
         console.log(name);      
         if(name === 'Project Manager')
         {
-            this.http.get('http://localhost:8082//pm-logs',{responseType:'text'})
-            .subscribe(downloadedFileData => {
+            if(this.env.enableDebug) {
+                console.log('Debug mode enabled!');
+              }
+
+            console.log(this.env.apiUrl);
+
+              this.http.get(this.env.apiUrl + '//pm-logs',{responseType:'text'})
+              .subscribe(downloadedFileData => {
                 const blob = new Blob([downloadedFileData], { type: 'text/json; charset=utf-8' });
                 fileSaver.saveAs(blob, 'projectManager.log');
                 console.log(downloadedFileData);
@@ -44,7 +51,7 @@ export class DataFetcherService{
         console.log(name);      
         if(name === 'Project Manager')
         {
-            return this.http.get('http://localhost:8082//config',{responseType:'text'});
+            return this.http.get(this.env.apiUrl + '//config',{responseType:'text'});
         }
     }
 
@@ -53,7 +60,7 @@ export class DataFetcherService{
         console.log(name);      
         if(name === 'Project Manager')
         {
-            this.http.get('http://localhost:8082//config',{responseType:'text'})
+            this.http.get(this.env.apiUrl + '//config',{responseType:'text'})
             .subscribe(downloadedFileData => {
                 const blob = new Blob([downloadedFileData], { type: 'text/json; charset=utf-8' });
                 fileSaver.saveAs(blob, 'projectManagerConfig.log');
@@ -61,4 +68,14 @@ export class DataFetcherService{
             });
         }
     }
+
+    downloadDBSnap(id:number){
+        const name = this.microservice.getMicroservice(id).name;
+        console.log(name);      
+        if(name === 'Project Manager')
+        {
+            return this.http.get(this.env.apiUrl + '//config',{responseType:'text'});
+        }
+    }
+
 }
