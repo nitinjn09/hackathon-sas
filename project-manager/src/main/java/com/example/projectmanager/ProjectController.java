@@ -28,7 +28,7 @@ public class ProjectController
     @Value("${conf.application.path}")
     String applicationConfPath;
 
-    @Value("{conf.dbsnap.path}")
+    @Value("${conf.dbsnap.path}")
     String dbSnapPath;
 
     //@Value("{sas.url}")
