@@ -24,9 +24,9 @@ dependencies {
 	}
 }
 
-test {
+/*test {
 	useJUnitPlatform()
-}
+}*/
 
 /*docker {
 	dependsOn(build)

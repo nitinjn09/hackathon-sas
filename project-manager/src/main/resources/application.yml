@@ -14,3 +14,8 @@ logging:
 conf:
   application:
     path: src/main/resources/application.yml
+  dbsnap:
+    path: src/main/resources/dbSnap.json
+
+sas:
+  url: "http://localhost:4200"

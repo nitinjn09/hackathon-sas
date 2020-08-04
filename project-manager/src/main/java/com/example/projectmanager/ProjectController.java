@@ -1,5 +1,6 @@
 package com.example.projectmanager;
 
+import jdk.jshell.spi.ExecutionControlProvider;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.tomcat.util.json.JSONParser;
 import org.apache.tomcat.util.json.ParseException;
@@ -26,6 +27,12 @@ public class ProjectController
 
     @Value("${conf.application.path}")
     String applicationConfPath;
+
+    @Value("{conf.dbsnap.path}")
+    String dbSnapPath;
+
+    //@Value("{sas.url}")
+    //String sasUrl;
 
     @GetMapping("/test")
     public String collectLogs()
@@ -98,7 +105,7 @@ public class ProjectController
     @RequestMapping(value = "/dbsnap", method = RequestMethod.GET)
     public ResponseEntity<Object> getJson() throws IOException
     {
-        File file = new File("C:\\Users\\prastogi\\Desktop\\Hackathon\\hackathon-sas\\project-manager\\pmConf.json");
+        File file = new File(dbSnapPath);
         InputStreamResource resource = new InputStreamResource(new FileInputStream(file));
         HttpHeaders headers = new HttpHeaders();
 
