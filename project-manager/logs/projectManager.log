@@ -1951,3 +1951,184 @@ Identify and stop the process that's listening on port 8082 or configure this ap
 04-08-2020 11:19:56.179 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-3
 04-08-2020 11:19:56.180 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-3
 04-08-2020 11:19:56.181 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-3
+04-08-2020 11:20:56.196 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-4
+04-08-2020 11:20:56.201 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-4
+04-08-2020 11:20:56.204 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-4
+04-08-2020 11:21:56.221 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-5
+04-08-2020 11:21:56.222 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-5
+04-08-2020 11:21:56.223 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-5
+04-08-2020 11:22:56.231 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-6
+04-08-2020 11:22:56.237 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-6
+04-08-2020 11:22:56.239 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-6
+04-08-2020 11:23:56.244 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-7
+04-08-2020 11:23:56.250 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-7
+04-08-2020 11:23:56.253 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-7
+04-08-2020 11:24:56.273 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-8
+04-08-2020 11:24:56.274 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-8
+04-08-2020 11:24:56.274 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-8
+04-08-2020 11:25:56.281 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-9
+04-08-2020 11:25:56.286 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-9
+04-08-2020 11:25:56.291 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-9
+04-08-2020 11:26:56.302 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-10
+04-08-2020 11:26:56.306 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-10
+04-08-2020 11:26:56.308 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-10
+04-08-2020 11:27:56.326 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-11
+04-08-2020 11:27:56.331 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-11
+04-08-2020 11:27:56.334 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-11
+04-08-2020 11:28:56.355 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-12
+04-08-2020 11:28:56.357 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-12
+04-08-2020 11:28:56.362 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-12
+04-08-2020 11:29:56.364 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-13
+04-08-2020 11:29:56.366 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-13
+04-08-2020 11:29:56.367 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-13
+04-08-2020 11:30:56.375 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-14
+04-08-2020 11:30:56.376 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-14
+04-08-2020 11:30:56.377 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-14
+04-08-2020 11:31:56.386 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-15
+04-08-2020 11:31:56.395 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-15
+04-08-2020 11:31:56.400 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-15
+04-08-2020 11:32:56.407 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-16
+04-08-2020 11:32:56.408 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-16
+04-08-2020 11:32:56.408 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-16
+04-08-2020 11:33:30.327 [main] INFO  c.e.p.ProjectManagerApplication.logStarting - Starting ProjectManagerApplication on IN-Njain-LT with PID 19996 (C:\TNPS\hackathon-sas\project-manager\build\classes\java\main started by njain in C:\TNPS\hackathon-sas\project-manager)
+04-08-2020 11:33:30.335 [main] INFO  c.e.p.ProjectManagerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+04-08-2020 11:33:33.090 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+04-08-2020 11:33:33.128 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+04-08-2020 11:33:33.129 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+04-08-2020 11:33:33.391 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+04-08-2020 11:33:33.392 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2952 ms
+04-08-2020 11:33:33.863 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+04-08-2020 11:33:34.213 [main] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+04-08-2020 11:33:34.249 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+04-08-2020 11:33:34.261 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+04-08-2020 11:33:34.272 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+04-08-2020 11:34:07.205 [main] INFO  c.e.p.ProjectManagerApplication.logStarting - Starting ProjectManagerApplication on IN-Njain-LT with PID 19640 (C:\TNPS\hackathon-sas\project-manager\build\classes\java\main started by njain in C:\TNPS\hackathon-sas\project-manager)
+04-08-2020 11:34:07.217 [main] INFO  c.e.p.ProjectManagerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+04-08-2020 11:34:09.881 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+04-08-2020 11:34:09.915 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+04-08-2020 11:34:09.916 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+04-08-2020 11:34:10.238 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+04-08-2020 11:34:10.240 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2875 ms
+04-08-2020 11:34:10.713 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+04-08-2020 11:34:11.119 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+04-08-2020 11:34:11.131 [main] INFO  c.e.p.ProjectManagerApplication.logStarted - Started ProjectManagerApplication in 5.33 seconds (JVM running for 6.135)
+04-08-2020 11:34:11.140 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-0
+04-08-2020 11:34:11.142 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-0
+04-08-2020 11:34:11.143 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-0
+04-08-2020 11:34:22.900 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+04-08-2020 11:34:22.902 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+04-08-2020 11:34:22.926 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 23 ms
+04-08-2020 11:35:11.157 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-1
+04-08-2020 11:35:11.159 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-1
+04-08-2020 11:35:11.159 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-1
+04-08-2020 11:36:11.168 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-2
+04-08-2020 11:36:11.170 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-2
+04-08-2020 11:36:11.171 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-2
+04-08-2020 11:37:11.186 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-3
+04-08-2020 11:37:11.188 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-3
+04-08-2020 11:37:11.191 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-3
+04-08-2020 11:38:11.195 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-4
+04-08-2020 11:38:11.199 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-4
+04-08-2020 11:38:11.200 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-4
+04-08-2020 11:39:11.207 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-5
+04-08-2020 11:39:11.209 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-5
+04-08-2020 11:39:11.210 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-5
+04-08-2020 11:40:11.221 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-6
+04-08-2020 11:40:11.222 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-6
+04-08-2020 11:40:11.222 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-6
+04-08-2020 11:41:11.235 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-7
+04-08-2020 11:41:11.240 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-7
+04-08-2020 11:41:11.247 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-7
+04-08-2020 11:42:11.258 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-8
+04-08-2020 11:42:11.259 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-8
+04-08-2020 11:42:11.259 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-8
+04-08-2020 11:43:11.261 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-9
+04-08-2020 11:43:11.262 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-9
+04-08-2020 11:43:11.263 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-9
+04-08-2020 11:44:11.264 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-10
+04-08-2020 11:44:11.264 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-10
+04-08-2020 11:44:11.264 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-10
+04-08-2020 11:45:11.273 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-11
+04-08-2020 11:45:11.274 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-11
+04-08-2020 11:45:11.274 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-11
+04-08-2020 11:46:11.279 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-12
+04-08-2020 11:46:11.279 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-12
+04-08-2020 11:46:11.279 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-12
+04-08-2020 11:47:11.290 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-13
+04-08-2020 11:47:11.291 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-13
+04-08-2020 11:47:11.292 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-13
+04-08-2020 11:48:11.292 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-14
+04-08-2020 11:48:11.294 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-14
+04-08-2020 11:48:11.295 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-14
+04-08-2020 11:49:11.304 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-15
+04-08-2020 11:49:11.304 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-15
+04-08-2020 11:49:11.304 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-15
+04-08-2020 11:50:29.642 [main] INFO  c.e.p.ProjectManagerApplication.logStarting - Starting ProjectManagerApplication on IN-Njain-LT with PID 4864 (C:\TNPS\hackathon-sas\project-manager\build\classes\java\main started by njain in C:\TNPS\hackathon-sas\project-manager)
+04-08-2020 11:50:29.652 [main] INFO  c.e.p.ProjectManagerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+04-08-2020 11:50:32.050 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+04-08-2020 11:50:32.073 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+04-08-2020 11:50:32.074 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+04-08-2020 11:50:32.318 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+04-08-2020 11:50:32.320 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2534 ms
+04-08-2020 11:50:32.783 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+04-08-2020 11:50:33.253 [main] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+04-08-2020 11:50:33.283 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+04-08-2020 11:50:33.287 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+04-08-2020 11:50:33.295 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+04-08-2020 11:53:44.990 [main] INFO  c.e.p.ProjectManagerApplication.logStarting - Starting ProjectManagerApplication on IN-Njain-LT with PID 15300 (C:\TNPS\hackathon-sas\project-manager\build\classes\java\main started by njain in C:\TNPS\hackathon-sas\project-manager)
+04-08-2020 11:53:44.996 [main] INFO  c.e.p.ProjectManagerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+04-08-2020 11:53:48.272 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+04-08-2020 11:53:48.310 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+04-08-2020 11:53:48.311 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+04-08-2020 11:53:48.720 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+04-08-2020 11:53:48.764 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3584 ms
+04-08-2020 11:53:49.714 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+04-08-2020 11:53:50.402 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+04-08-2020 11:53:50.412 [main] INFO  c.e.p.ProjectManagerApplication.logStarted - Started ProjectManagerApplication in 7.834 seconds (JVM running for 8.847)
+04-08-2020 11:53:50.424 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-0
+04-08-2020 11:53:50.426 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-0
+04-08-2020 11:53:50.428 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-0
+04-08-2020 11:54:15.952 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+04-08-2020 11:54:15.957 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+04-08-2020 11:54:15.976 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 18 ms
+04-08-2020 11:54:51.516 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-1
+04-08-2020 11:54:51.521 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-1
+04-08-2020 11:54:51.959 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-1
+04-08-2020 11:55:51.975 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-2
+04-08-2020 11:55:51.983 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-2
+04-08-2020 11:55:51.986 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-2
+04-08-2020 11:56:51.995 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-3
+04-08-2020 11:56:51.997 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-3
+04-08-2020 11:56:51.998 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-3
+04-08-2020 11:57:52.012 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-4
+04-08-2020 11:57:52.023 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-4
