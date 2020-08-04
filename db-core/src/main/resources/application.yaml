@@ -1,0 +1,77 @@
+server:
+  port: 8088
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3306/tnpsdb
+    username: root
+    password: Maria
+  jpa:
+    hibernate:
+      ddl-auto: update
+  cloud:
+    stream:
+      defaultBinder: kafka
+      bindings:
+        RequestSender:
+          binder: kafka
+          destination: RequestTopic
+          content-type: application/protobuf
+          group: consumergroup
+        ResponseSender:
+          binder: kafka
+          destination: ResponseTopic
+          content-type: application/protobuf
+          group: consumergroup
+        RequestReceiver:
+          binder: kafka
+          destination: RequestTopic
+          content-type: application/protobuf
+          group: consumergroup
+        ResponseReceiver:
+          binder: kafka
+          destination: ResponseTopic
+          content-type: application/protobuf
+          group: consumergroup
+        UploadFileRequestSender:
+          binder: kafka
+          destination: UploadFileRequestTopic
+          content-type: application/protobuf
+          group: uploadfileconsumergroup
+        UploadFileRequestReceiver:
+          binder: kafka
+          destination: UploadFileRequestTopic
+          content-type: application/protobuf
+          group: uploadfileconsumergroup
+      kafka:
+        bindings:
+          RequestSender:
+            consumer:
+              autoCommitOffset: false
+          ResponseSender:
+            consumer:
+              autoCommitOffset: false
+          RequestReceiver:
+            consumer:
+              autoCommitOffset: false
+          ResponseReceiver:
+            consumer:
+              autoCommitOffset: false
+          UploadFileRequestSender:
+            consumer:
+              autoCommitOffset: false
+          UploadFileRequestReceiver:
+            consumer:
+              autoCommitOffset: false
+        binder:
+          brokers: ${SERVICE_KAFKA_HOST:localhost}
+          zkNodes: ${SERVICE_ZOOKEEPER_HOST:127.0.0.1}
+          defaultZkPort: ${SERVICE_ZOOKEEPER_PORT:2181}
+          defaultBrokerPort: ${SERVICE_KAFKA_PORT:9092}
+logging:
+  level:
+    ROOT: INFO
+  path: logs
+  file: ${logging.path}/dbComponent.log
+  pattern:
+    file: '%d{dd-MM-yyyy HH:mm:ss.SSS} [%thread] %-5level %logger{36}.%M - %msg%n'
+    console: '%d{dd-MM-yyyy HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %logger{36}.%M - %msg%n'
