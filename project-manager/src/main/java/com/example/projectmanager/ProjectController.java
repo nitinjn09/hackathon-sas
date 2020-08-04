@@ -24,6 +24,9 @@ public class ProjectController
     @Value("${logging.file.name}")
     String logFile;
 
+    @Value("${conf.application.path}")
+    String applicationConfPath;
+
     @GetMapping("/test")
     public String collectLogs()
     {
@@ -73,10 +76,9 @@ public class ProjectController
 	
 	@CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping(value = "/config", method = RequestMethod.GET)
-    public ResponseEntity<Object> getYmlJson() throws IOException {
-
-        String inputFilePath = "C:\\Users\\prastogi\\Desktop\\Hackathon\\hackathon-sas\\project-manager\\src\\main\\resources\\application.yml";
-        File file = new File(inputFilePath);
+    public ResponseEntity<Object> getYmlJson() throws IOException
+    {
+        File file = new File(applicationConfPath);
         InputStreamResource resource = new InputStreamResource(new FileInputStream(file));
         HttpHeaders headers = new HttpHeaders();
 
