@@ -2132,3 +2132,16 @@ Identify and stop the process that's listening on port 8082 or configure this ap
 04-08-2020 11:56:51.998 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-3
 04-08-2020 11:57:52.012 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-4
 04-08-2020 11:57:52.023 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-4
+04-08-2020 11:57:52.034 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-4
+04-08-2020 11:58:52.040 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-5
+04-08-2020 11:58:52.041 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-5
+04-08-2020 11:58:52.041 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-5
+04-08-2020 11:59:52.054 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-6
+04-08-2020 11:59:52.058 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-6
+04-08-2020 11:59:52.059 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-6
+04-08-2020 12:00:52.062 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-7
+04-08-2020 12:00:52.063 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-7
+04-08-2020 12:00:52.065 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-7
+04-08-2020 12:01:52.080 [main] INFO  c.e.p.ProjectManagerLogger.test - INFO-8
+04-08-2020 12:01:52.082 [main] WARN  c.e.p.ProjectManagerLogger.test - WARN-8
+04-08-2020 12:01:52.083 [main] ERROR c.e.p.ProjectManagerLogger.test - ERROR-8
