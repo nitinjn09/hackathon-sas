@@ -16,7 +16,7 @@ spec:
     - host: sas.tnps.com
       http:
         paths:
-          - path: /collect-logs
+          - path: /
             backend:
               serviceName: sas-tool
               servicePort: {{ $svcPort }}

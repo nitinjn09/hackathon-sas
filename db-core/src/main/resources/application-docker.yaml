@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://mariadb:3306/tnpsdb
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: ${SERVICE_KAFKA_HOST:kafka}
+          zkNodes: ${SERVICE_ZOOKEEPER_HOST:kafka}
