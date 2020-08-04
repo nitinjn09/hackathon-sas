@@ -93,4 +93,25 @@ public class ProjectController
 
         return responseEntity;
     }
+
+    @CrossOrigin(origins = "http://localhost:4200")
+    @RequestMapping(value = "/dbsnap", method = RequestMethod.GET)
+    public ResponseEntity<Object> getJson() throws IOException
+    {
+        File file = new File("C:\\Users\\prastogi\\Desktop\\Hackathon\\hackathon-sas\\project-manager\\pmConf.json");
+        InputStreamResource resource = new InputStreamResource(new FileInputStream(file));
+        HttpHeaders headers = new HttpHeaders();
+
+        headers.add("Content-Disposition", String.format("attachment; filename=\"%s\"", file.getName()));
+        headers.add("Cache-Control", "no-cache, no-store, must-revalidate");
+        headers.add("Pragma", "no-cache");
+        headers.add("Expires", "0");
+
+        ResponseEntity<Object>
+                responseEntity = ResponseEntity.ok().headers(headers).contentLength(file.length()).contentType(
+                MediaType.parseMediaType("application/txt")).body(resource);
+
+        return responseEntity;
+    }
+
 }

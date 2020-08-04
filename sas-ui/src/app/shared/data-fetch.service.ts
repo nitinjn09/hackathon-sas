@@ -69,13 +69,13 @@ export class DataFetcherService{
         }
     }
 
-    downloadDBSnap(id:number){
-        const name = this.microservice.getMicroservice(id).name;
-        console.log(name);      
-        if(name === 'Project Manager')
-        {
-            return this.http.get(this.env.apiUrl + '//config',{responseType:'text'});
-        }
+    downloadDBSnap(id:number) : Observable<string>{
+        //const name = this.microservice.getMicroservice(id).name;
+        //console.log(name);      
+        //if(name === 'Project Manager')
+//{
+            return this.http.get(this.env.apiUrl + '//dbsnap',{responseType:'text'});
+       // }
     }
 
 }

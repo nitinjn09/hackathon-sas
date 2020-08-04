@@ -12,6 +12,7 @@ import { Microservice } from '../microservice.model';
 export class DbsnapComponent implements OnInit {
   cols: any[];
   users: DataInterface[];
+  id: number;
 
   constructor(private route: ActivatedRoute, private microserviceService:MicroserviceService, private router: Router,private dataFetcherService: DataFetcherService) { }
 
@@ -23,6 +24,25 @@ export class DbsnapComponent implements OnInit {
   }
 
   onGetDBSnap(){
+    console.log('onGetDBSnap');
+    this.dataFetcherService.downloadDBSnap(this.id).subscribe(jsonfile =>
+      {
+        console.log('downloadDBSnap inside subscribe');
+        console.log('json ->' + jsonfile);
+
+        let data = JSON.parse(jsonfile);
+        this.users = [
+          { id: data["Project 1"].event, name: data["Project 1"].data },
+          { id: data["Project 2"].event, name: data["Project 2"].data },
+          { id: data["Project 3"].event, name: data["Project 3"].data }];
+          this.cols = [
+            { field: 'id', header: 'Id' },
+            { field: 'name', header: 'Name' },
+        ];
+  
+          console.log('users ->' + this.users);
+
+      });
   }
 
 }
