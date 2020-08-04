@@ -7,10 +7,6 @@ logging:
   file:
     path: logs
     name: ${logging.file.path}/projectManager.log
-    #name: C:\TNPS\njaintnps\tnps\hackathon-sas\project-manager\logs\projectManager.log
   pattern:
     file: '%d{dd-MM-yyyy HH:mm:ss.SSS} [%thread] %-5level %logger{36}.%M - %msg%n'
     console: '%d{dd-MM-yyyy HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %logger{36}.%M - %msg%n'
-
-conf:
-  path: conf
